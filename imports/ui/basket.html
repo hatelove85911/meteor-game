@@ -1,0 +1,9 @@
+<template name="basket">
+  <div class="basket">
+    <ul class="productList">
+      {{#each products}}
+        <li>{{> productListItem}}</li>
+      {{/each}}
+    </ul>
+  </div>
+</template>
